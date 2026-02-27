@@ -19,9 +19,10 @@ sidebar_position: 1
 
 Emisión: ``` E:0 I:0 A:0 M:03 AE:2 ```
 Significado: Red Eléctrica Operativa, Internet Normal, Suministro Agua Normal, Meteorología Tomenta y Autonomía Energética de 2 horas sin electricidad.
+
 ---
 
-## 1️⃣ Electricidad (E)
+### 1️⃣ Electricidad (E)
 
 Estado del suministro eléctrico doméstico.
 
@@ -34,7 +35,7 @@ Estado del suministro eléctrico doméstico.
 
 ---
 
-## 2️⃣ Internet (I)
+### 2️⃣ Internet (I)
 
 Estado de conectividad IP.
 
@@ -47,7 +48,7 @@ Estado de conectividad IP.
 
 ---
 
-## 3️⃣ Agua (A)
+### 3️⃣ Agua (A)
 
 Estado del suministro de agua.
 
@@ -59,7 +60,7 @@ Estado del suministro de agua.
 
 ---
 
-## 4️⃣ Meteorología (M)
+### 4️⃣ Meteorología (M)
 
 Condición dominante relevante.
 
@@ -77,7 +78,7 @@ Condición dominante relevante.
 
 ---
 
-## 5️⃣ Autonomía Energética (AE)
+### 5️⃣ Autonomía Energética (AE)
 
 Capacidad sin red eléctrica.
 
