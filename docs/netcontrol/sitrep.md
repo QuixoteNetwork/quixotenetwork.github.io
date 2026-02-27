@@ -1,10 +1,12 @@
 ---
+title: 📡 SITREP
+description: Informe de Situación.
 sidebar_position: 2
 ---
 
 ## 📡 Estructura Oficial del SITREP de Quixote Network
 
-SITREP: significa Situational Report, en castellano Informe de Situación, que es un Informe donde cada Estación anuncia la situación que tiene, en nuestro caso sobre:
+SITREP: significa Situation Report, en castellano Informe de Situación, que es un Informe donde cada Estación anuncia la situación que tiene, en nuestro caso sobre:
 - Sumunistro eléctrico
 - Estado del Internet
 - Suministro de Agua corriente
