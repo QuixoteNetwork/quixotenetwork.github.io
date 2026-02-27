@@ -14,7 +14,7 @@ sidebar_position: 1
 📶 Meshtastic: canal Iberia
 :::
 
-## 🕒 Secuencia Horaria del Net Control
+### 🕒 Secuencia Horaria del Net Control
 
 | Hora            | Acción |
 |-----------------|--------|
@@ -29,7 +29,7 @@ sidebar_position: 1
 E:0 I:0 A:0 M:0 AE:2
 ```
 
-## 📡 ¿Qué es un SITREP o Informe de Situación en Quixote Network?
+### 📡 ¿Qué es un SITREP o Informe de Situación en Quixote Network?
 
 Un SITREP (Situation Report) o Informe de Situación, es un informe estructurado y periódico que cada estación participante envía durante el Net Control semanal, con el objetivo de comunicar de forma breve y estandarizada el estado de su entorno e infraestructura básica.
 
