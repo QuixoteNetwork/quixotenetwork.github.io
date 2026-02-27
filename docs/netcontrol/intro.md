@@ -9,7 +9,9 @@ sidebar_position: 1
 *Todos los Miércoles a las 20:00 horas invierno / 21:00 horas verano, horario peninsular (19:00 UTC).*
 
 :::info
-📡 JS8Call: 40m (70.078 MHz) (grupo @QXTNET) 
+📡 JS8Call: (grupo @QXTNET) 
+- 40m: 7.078 MHz
+- 11m: 27.265 MHz
 
 📶 Meshtastic: canal Iberia
 :::
