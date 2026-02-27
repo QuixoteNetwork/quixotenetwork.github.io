@@ -13,7 +13,9 @@ En Quixote Network operamos con JS8Call en distintas bandas y entornos, siempre 
 
 
 :::info
-📡 JS8Call: 40m (70.078 MHz) (grupo @QXTNET)
+📡 JS8Call (grupo @QXTNET):
+- 40m: 7.078 MHz
+- 11m: 27.265 MHz
 
 📶 Meshtastic: canal Iberia
 :::
