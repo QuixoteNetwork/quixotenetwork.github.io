@@ -1,6 +1,6 @@
 ---
-title: 📡 SITREP
-description: Informe de Situación.
+title: 📡 Informe de Situación
+description: Informe de Situación
 sidebar_position: 2
 ---
 
