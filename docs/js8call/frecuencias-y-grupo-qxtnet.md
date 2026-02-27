@@ -2,6 +2,11 @@
 sidebar_position: 2
 ---
 
+# 📶 Frecuencias y Grupo
+
+En Quixote Network operamos con JS8Call en distintas bandas y entornos, siempre respetando el marco legal aplicable a cada caso:
+
+
 # 🎛️ Net Control Semanal
 
 Todos los Miércoles a las 20:00 horas peninsular (19:00 UTC).
@@ -10,10 +15,6 @@ Todos los Miércoles a las 20:00 horas peninsular (19:00 UTC).
 📡 JS8Call: 40m (70.078 MHz) (grupo @QXTNET)
 📶 Meshtastic: canal Iberia
 :::
-
-# 📶 Frecuencias y Grupo
-
-En Quixote Network operamos con JS8Call en distintas bandas y entornos, siempre respetando el marco legal aplicable a cada caso:
 
 ### 📻 Banda Ciudadana 11 metros (CB)
 
