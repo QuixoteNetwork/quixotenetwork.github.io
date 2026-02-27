@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # 🎛️ Net Control Semanal
 
 *Todos los Miércoles a las 20:00 horas peninsular (19:00 UTC).*
