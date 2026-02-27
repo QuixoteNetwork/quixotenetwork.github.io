@@ -1,0 +1,9 @@
+{
+  "label": "Net Control",
+  "position": 7,
+  "link": {
+    "slug": "netcontrol",
+    "type": "generated-index",
+    "description": "Documentación sobre los Net Control de Quixote Network"
+  }
+}
