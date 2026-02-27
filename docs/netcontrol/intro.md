@@ -1,6 +1,6 @@
 ---
 title: 🎛️ Net Control Semanal
-description: Net Control Semanal.
+description: Explicación del Net Control Semanal de Quixote Network.
 sidebar_position: 1
 ---
 
