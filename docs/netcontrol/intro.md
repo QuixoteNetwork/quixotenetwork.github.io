@@ -14,16 +14,24 @@ sidebar_position: 1
 📶 Meshtastic: canal Iberia
 :::
 
-## Horario Operativo de cada Net Control Semanal
+## 🕒 Secuencia Horaria del Net Control
 
-20:00: Organizador envía Mensaje QXTMSG1: Inicio Net Control
-20:01 a 20:04: Organizador envía @QXTNET SNR?
-20:05 a 20:15: envío de cada estación REGISTRO [GRID]
-20:16 a 20:30: Envío de cada estación Reporte de Situación, ejemplo:  E:0 I:0 A:0 M:0 AE:2
+| Hora            | Acción |
+|-----------------|--------|
+| 20:00           | El organizador envía **QXTMSG1: Inicio Net Control** |
+| 20:01 – 20:04   | El organizador envía: `@QXTNET SNR?` |
+| 20:05 – 20:15   | Envío de cada estación: **REGISTRO [GRID]** |
+| 20:16 – 20:30   | Envío de cada estación: **Reporte de Situación (SITREP)** |
+
+
+### 📡 Ejemplo Formato SITREP
+```
+E:0 I:0 A:0 M:0 AE:2
+```
 
 ## 📡 ¿Qué es un SITREP o Informe de Situación en Quixote Network?
 
-Un SITREP (Situation Report) es un informe estructurado y periódico que cada estación participante envía durante el Net Control semanal, con el objetivo de comunicar de forma breve y estandarizada el estado de su entorno e infraestructura básica.
+Un SITREP (Situation Report) o Informe de Situación, es un informe estructurado y periódico que cada estación participante envía durante el Net Control semanal, con el objetivo de comunicar de forma breve y estandarizada el estado de su entorno e infraestructura básica.
 
 En el contexto de Quixote Network, el SITREP no es solo un “check-in”, sino una fotografía operativa de la situación local de cada nodo, incluyendo:
 
