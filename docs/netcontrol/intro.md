@@ -1,4 +1,6 @@
 ---
+title: 🎛️ Net Control Semanal
+description: Net Control Semanal.
 sidebar_position: 1
 ---
 
