@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # 🎛️ Net Control Semanal
 
-*Todos los Miércoles a las 20:00 horas peninsular (19:00 UTC).*
+*Todos los Miércoles a las 20:00 horas invierno / 21:00 horas horario peninsular (19:00 UTC).*
 
 :::info
 📡 JS8Call: 40m (70.078 MHz) (grupo @QXTNET) 
@@ -16,12 +16,12 @@ sidebar_position: 1
 
 ### 🕒 Secuencia Horaria del Net Control
 
-| Hora            | Acción |
+| Hora UTC        | Acción |
 |-----------------|--------|
-| 20:00           | El organizador envía **QXTMSG1: Inicio Net Control** |
-| 20:01 – 20:04   | El organizador envía: `@QXTNET SNR?` |
-| 20:05 – 20:15   | Envío de cada estación: **REGISTRO [GRID]** |
-| 20:16 – 20:30   | Envío de cada estación: **Reporte de Situación (SITREP)** |
+| 19:00           | El organizador envía **QXTMSG1: Inicio Net Control** |
+| 19:01 – 19:04   | El organizador envía: `@QXTNET SNR?` |
+| 19:05 – 19:15   | Envío de cada estación: **REGISTRO [GRID]** |
+| 19:16 – 19:30   | Envío de cada estación: **Reporte de Situación (SITREP)** |
 
 
 ### 📡 Ejemplo Formato SITREP
