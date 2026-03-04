@@ -23,16 +23,20 @@ sidebar_position: 1
 | 19:00           | Organizador envía | `@QXTNET QXTMSG1 INICIO NET CONTROL` |
 | 19:01           | Organizador envía | `@QXTNET SNR?` |
 | 19:04           | Organizador envía | `@QXTNET QXTMSG2 ENVIAD REGISTRO` |
-| 19:05 – 19:14   | Cada Estación envía | `REGISTRO [TU GRID]` |
+| 19:05 – 19:14   | Cada Estación envía | `@QXTNET REGISTRO [TU GRID]` |
 | 19:15           | Organizador envía | `@QXTNET QXTMSG3 ENVIAD SITREP` |
-| 19:16 – 19:29   | Cada Estación envía|  `E:0 I:0 A:0 M:0 AE:2` (EJEMPLO SITREP) |
+| 19:16 – 19:29   | Cada Estación envía|  `@QXTNET E:0 I:0 A:0 M:0 AE:2` (EJEMPLO SITREP) |
 | 19:30           | Organizador envía | `@QXTNET QXTMSG4 FIN NET CONTROL` |
 
 
 ### 📡 Ejemplo Formato SITREP
+Ejemplo de SITREP (Informe de Situación) enviado por una Estación:
 ```
 E:0 I:0 A:0 M:0 AE:2
 ```
+Significado: Electriciad Normal, Internet Normal, Agua Normal, Meteorología Normal y Autonomía Energética de 2 horas.
+
+Más información sobre los SITREP: [Explicación detallada SITREP](https://quixote.info/docs/netcontrol/sitrep)
 
 ### 📡 ¿Qué es un SITREP en Quixote Network?
 
