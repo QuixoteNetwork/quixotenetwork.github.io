@@ -18,12 +18,15 @@ sidebar_position: 1
 
 ### 🕒 Secuencia Horaria del Net Control
 
-| Hora UTC        | Acción |
-|-----------------|--------|
-| 19:00           | El organizador envía **QXTMSG1: Inicio Net Control** |
-| 19:01 – 19:04   | El organizador envía: `@QXTNET SNR?` |
-| 19:05 – 19:15   | Envío de cada estación: **REGISTRO [GRID]** |
-| 19:16 – 19:30   | Envío de cada estación: **Reporte de Situación (SITREP)** |
+| Hora UTC        | Operador TX | Mensaje |
+|-----------------|-------------|---------|
+| 19:00           | Organizador envía | `@QXTNET QXTMSG1 INICIO NET CONTROL` |
+| 19:01           | Organizador envía | `@QXTNET SNR?` |
+| 19:04           | Organizador envía | `@QXTNET QXTMSG2 ENVIAD REGISTRO` |
+| 19:05 – 19:14   | Cada Estación envía | `REGISTRO [TU GRID]` |
+| 19:15           | Organizador envía | `@QXTNET QXTMSG3 ENVIAD SITREP` |
+| 19:16 – 19:29   | Cada Estación envía|  `E:0 I:0 A:0 M:0 AE:2` (EJEMPLO SITREP) |
+| 19:30           | Organizador envía | `@QXTNET QXTMSG4 FIN NET CONTROL` |
 
 
 ### 📡 Ejemplo Formato SITREP
