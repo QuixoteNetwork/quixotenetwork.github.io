@@ -1,0 +1,9 @@
+{
+  "label": "MesHFest",
+  "position": 6,
+  "link": {
+    "slug": "meshfest",
+    "type": "generated-index",
+    "description": "Documentación sobre MesHFest de Quixote Network."
+  }
+}
