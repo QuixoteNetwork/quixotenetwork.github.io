@@ -1,7 +1,15 @@
 ---
-title: 🎛️ Qué es un Net Control
+title: 🌍 Qué es un Net Control
 description: Explicación de qué es un Net Control de Quixote Network.
 sidebar_position: 1
+---
+
+## 🧭 ¿Qué es un Net Control?
+
+Un **Net Control** es una red organizada de comunicaciones que tiene como fin compartir información y mantener el contacto entre estaciones, donde una estación (Net Control Station o NCS) coordina el tráfico de mensajes entre todas las estaciones participantes.
+
+Su objetivo es mantener orden, eficiencia y claridad en las comunicaciones, especialmente cuando hay múltiples operadores compartiendo el mismo canal.
+
 ---
 
 # 📡 Net Control – Red de Control de Estaciones
@@ -11,15 +19,7 @@ Dentro de esta filosofía, uno de los pilares fundamentales es el **Net Control 
 
 ---
 
-## 🧭 ¿Qué es un Net Control?
-
-Un **Net Control** es una red organizada de comunicaciones en la que una estación (Net Control Station o NCS) coordina el tráfico de mensajes entre varias estaciones participantes.
-
-Su objetivo es mantener orden, eficiencia y claridad en las comunicaciones, especialmente cuando hay múltiples operadores compartiendo el mismo canal.
-
----
-
-## 🎯 ¿Para qué sirve?
+## 🎯 ¿Para qué sirve un Net Control?
 
 Aunque tradicionalmente se asocia a situaciones de emergencia, en Quixote Network el Net Control tiene un propósito clave:
 
