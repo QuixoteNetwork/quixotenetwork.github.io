@@ -1,7 +1,7 @@
 ---
 title: 📡 Informe de Situación
 description: Explicación en Detalle del Informe de Situación o SITREP.
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## 📡 Estructura Oficial del SITREP de Quixote Network
