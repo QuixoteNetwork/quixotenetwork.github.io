@@ -4,7 +4,7 @@ description: Explicación del Net Control Semanal de Quixote Network.
 sidebar_position: 2
 ---
 
-# 🎛️ Net Control Semanal
+# 🎛️ Net Control Semanal de Quixote Network
 
 *Todos los Miércoles a las 20:00 horas invierno / 21:00 horas verano, horario peninsular (19:00 UTC).*
 
