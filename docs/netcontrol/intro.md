@@ -1,5 +1,5 @@
 ---
-title: 🌍 Qué es un Net Control
+title: 📘 Introducción
 description: Explicación de qué es un Net Control de Quixote Network.
 sidebar_position: 1
 ---
