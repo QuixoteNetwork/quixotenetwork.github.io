@@ -19,7 +19,7 @@ Este documento agrupa nodos conocidos o puertos VARA HF que pueden servir como p
 
 | Indicativo | Frecuencia |        Modo       | Banda |   Horario   |  Comentarios                           |
 |------------|------------|-------------------|-------|-------------|----------------------------------------|
-| EA4IKR-7   |  7.049.40  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Enero 2026             |
+| EA4IKR-7   |  7.049.40  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Abril 2026             |
 
 
 
@@ -29,8 +29,8 @@ Este documento agrupa nodos conocidos o puertos VARA HF que pueden servir como p
 
 | Indicativo |   Frecuencia  |       Modo        | Banda |   Horario   |  Comentarios                           |
 |------------|---------------|-------------------|-------|-------------|----------------------------------------|
-| EI2GYB-7   | 7.049.50 MHz  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Enero 2026             |
-| EI2GYB-7   | 14.115.00 MHz | VARA HF (2300 Hz) | 20 m  | 08 - 20 UTC |  Funcionando en Enero 2026             |
+|  IW2OHX-8  | 7.049.50 MHz  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Enero 2026             |
+| IW2OHX-8  | 14.115.00 MHz | VARA HF (2300 Hz) | 20 m  | 08 - 20 UTC |  Funcionando en Abril 2026             |
 
 
 ---
