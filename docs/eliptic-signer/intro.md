@@ -67,8 +67,6 @@ SIG: RnZ5ts8cFnPUwy9bkqmUuX2RZ4RTVF57r6jUdnzC1iD6boM1VXynW+vWWJa4ooJ2XhuhTdzriuF
 
 ## 🔐 ¿Por qué usar Ed25519?
 
-<div>
-
 ⚡ Muy rápido y eficiente  
 🔒 Criptografía moderna y segura  
 📏 Firmas pequeñas (64 bytes)  
