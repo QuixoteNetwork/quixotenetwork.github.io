@@ -53,12 +53,12 @@ Permite demostrar **quién eres realmente**, incluso cuando no hay infraestructu
 🔹 Identificación en redes Mesh distribuidas  
 🔹 Comunicación autenticada en modos digitales (APRS, JS8Call, VARA...)
 
-:::Filosofia
+:::tip 
 
-> “En radio, cualquiera puede hablar…  
+> “En Radio, cualquiera puede hablar…  
 > pero no cualquiera puede demostrar quién es.”
 
-**Eliptic Signer hace eso posible.**
+**Eliptic Signer hace eso posible**
 :::
 
 ---
