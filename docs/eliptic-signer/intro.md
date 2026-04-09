@@ -1,7 +1,7 @@
 ---
 title: 📘 Introducción
 description: Introducción a Eliptic Signer como aplicación ligera diseñada para firmar y verificar mensajes digitales
-sidebar_position: 8
+sidebar_position: 1
 ---
 
 # 🔐 Eliptic Signer  
