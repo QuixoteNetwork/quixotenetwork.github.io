@@ -5,7 +5,8 @@ sidebar_position: 1
 ---
 
 # 🔐 Eliptic Signer  
-### Firma y Verificación de Mensajes con Ed25519 para Comunicaciones y Radiocomunicaciones 
+
+Firma y Verificación de Mensajes con Ed25519 para Comunicaciones y Radiocomunicaciones.
 
 ---
 
@@ -52,8 +53,7 @@ Permite demostrar **quién eres realmente**, incluso cuando no hay infraestructu
 🔹 Identificación en redes Mesh distribuidas  
 🔹 Comunicación autenticada en modos digitales (APRS, JS8Call, VARA...)
 
-:::tip
-**Filosofía**
+:::Filosofia
 
 > “En radio, cualquiera puede hablar…  
 > pero no cualquiera puede demostrar quién es.”
