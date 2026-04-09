@@ -34,8 +34,17 @@ Permite demostrar **quién eres realmente**, incluso cuando no hay infraestructu
 
 ---
 
-## 📡 Casos reales en radio
+## ⚙️ Instalación rápida
 
+### Windows
+👉 Descarga directamente el ejecutable desde la sección: [**Releases**](https://github.com/QuixoteNetwork/eliptic-signer/releases)
+
+### Linux y MacOS
+👉 Descarga el Repositorio de Github y ejecutalo. Más info: [Instalación Linux y MacOS](https://github.com/QuixoteNetwork/eliptic-signer?tab=readme-ov-file#%EF%B8%8F-installation-windows--linux--macos)
+
+---
+
+## 📡 Casos reales en radio
 
 🔹 Autenticación de estaciones en el **Net Control**  
 🔹 Evitar suplantaciones en enlaces de Radio (HF, VHF, UHF...)  
