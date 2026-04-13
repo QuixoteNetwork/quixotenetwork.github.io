@@ -22,7 +22,7 @@ Significado: Red Eléctrica Operativa, Internet Normal, Suministro Agua Normal, 
 
 ### 1️⃣ Electricidad (E)
 
-Estado del suministro eléctrico doméstico.
+Estado del suministro eléctrico doméstico:
 
 | Estado                              | Código |
 |-------------------------------------|--------|
@@ -30,6 +30,7 @@ Estado del suministro eléctrico doméstico.
 | Intermitente                        | 1      |
 | Sin red                             | 2      |
 | Funcionando con generador           | 3      |
+| Funcionando con Energía Solar       | 4      |
 
 ---
 
@@ -55,6 +56,7 @@ Estado del suministro de agua.
 | Normal              | 0      |
 | Baja presión        | 1      |
 | Sin suministro      | 2      |
+| Suministro propio   | 3      |
 
 ---
 
