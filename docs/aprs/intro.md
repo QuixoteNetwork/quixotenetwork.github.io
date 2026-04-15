@@ -8,8 +8,7 @@ sidebar_position: 1
 
 El **APRS (Automatic Packet Reporting System)** es un sistema de radio digital que permite enviar información en tiempo real como **posición GPS, mensajes, telemetría y datos de estaciones**.
 
-Fue desarrollado por Bob Bruninga (WB4APR) y funciona principalmente sobre el protocolo **AX.25** en VHF (144.800 MHz en Europa).
-
+Fue desarrollado por Bob Bruninga (WB4APR) en 1992 y funciona principalmente sobre el protocolo **AX.25** y VHF.
 ---
 
 ## ⚙️ ¿Qué permite hacer?
