@@ -48,7 +48,7 @@ Los datos enviados por radio pueden ser recogidos por **IGates** y subidos a Int
 ## 🧰 Qué necesitas
 
 - 📻 Transceptor VHF/UHF/HF
-- 💻 TNC ((Terminal Node Controller o Controlador de Nodo Terminal) ya sea Hardware o Software como Direwolf.
+- 💻 TNC (Terminal Node Controller o Controlador de Nodo Terminal) ya sea Hardware o Software como Direwolf.
 - 📡 Antena de la frecuencia a usar
 - 📍 GPS (opcional) si se desea posicionar tu estación automáticamente, aunque la mayor parte de dispositivos y software permiten poner una ubicación manual también.
 
@@ -58,11 +58,10 @@ También existen equipos y apps con APRS integrado, ya sea con la función de TN
 
 ## 🔗 Enlaces importantes
 
-- http://aprs.org → Información oficial
+- http://aprs.org → Información oficial (web histórica)
 - https://aprs.fi → Mapa APRS en tiempo real (Mapa Original)
 - https://aprs-map.info/ → Mapa APRS en tiempo real (varias funcionalidades extra)
 - https://aprs.to/ → Mapa APRS en tiempo real   
-- https://github.com/wb2osz/direwolf → Software TNC (Direwolf)
 - Grupo de Telegram de APRS en castellano: https://t.me/aprs_es
 - Grupo de Telegrma de Quixote Network: https://t.me/quixotenetwork
 
