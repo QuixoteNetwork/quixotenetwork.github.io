@@ -1,5 +1,5 @@
 ---
-title: 📘 Software
+title: 💻 Software
 description: Software para APRS.
 sidebar_position: 3
 ---
