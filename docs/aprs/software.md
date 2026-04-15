@@ -97,7 +97,7 @@ TNC por software (soundcard) para usar APRS sin hardware dedicado.
 ## 📡 Recomendación rápida
 
 - 📱 Android → APRSdroid NA7Q
-- 🪟 Windows → PinPoint APRS / YAAC  
+- 🪟 Windows → PinPoint APRS / YAAC  + Direwolf
 - 🐧 Linux → Xastir + Direwolf  
 - 🍎 macOS → YAAC  
 
