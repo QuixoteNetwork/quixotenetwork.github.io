@@ -1,0 +1,9 @@
+{
+  "label": "APRS",
+  "position": 10,
+  "link": {
+    "slug": "aprs",
+    "type": "generated-index",
+    "description": "Documentación sobre APRS de Quixote Network."
+  }
+}
