@@ -65,7 +65,7 @@ También existen equipos y apps con APRS integrado, ya sea con la función de TN
 
 ---
 
-❤️ Conclusión
+## ❤️ Conclusión
 
 APRS es una herramienta extremadamente potente dentro de la radioafición:
 
