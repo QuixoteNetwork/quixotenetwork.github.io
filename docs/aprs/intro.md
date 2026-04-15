@@ -59,7 +59,8 @@ También existen equipos y apps con APRS integrado, ya sea con la función de TN
 ## 🔗 Enlaces importantes
 
 - http://aprs.org → Información oficial
-- https://aprs.fi → Mapa APRS en tiempo real
+- https://aprs.fi → Mapa APRS en tiempo real (Mapa Original)
+- https://aprs-map.info/ → Mapa APRS en tiempo real (varias funcionalidades extra)
 - https://aprs.to/ → Mapa APRS en tiempo real   
 - https://github.com/wb2osz/direwolf → Software TNC (Direwolf)
 - Grupo de Telegram de APRS en castellano: https://t.me/aprs_es
