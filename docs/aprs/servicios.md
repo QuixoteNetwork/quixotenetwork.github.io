@@ -17,7 +17,7 @@ Esta guía recopila comandos útiles que puedes enviar mediante APRS para accede
 | Comando | Sintaxis | Función | Ejemplo |
 |---------|---------|--------|--------|
 | **WHO-15** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-15: EA1ABC` |
-| **WHO-IS** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-IS: EA1ABC` |
+| **WHO-IS** | `WHO-IS: indicativo` | Información sobre un radioaficionado | `WHO-IS: EA1ABC` |
 | **FIND** | `FIND: indicativo` | Última posición conocida de una estación | `FIND: EA1ABC` |
 
 ---
@@ -47,15 +47,15 @@ Esta guía recopila comandos útiles que puedes enviar mediante APRS para accede
 | Comando | Sintaxis | Función | Ejemplo |
 |--------|---------|--------|--------|
 | **SOTA** | `SOTA: referencia frecuencia modo` | Publicar activación SOTA en APRS-IS | `SOTA: EA1/A-001 145.500 FM` |
-| **APSPOT** | `! POTA referencia frecuencia modo texto` | Spot de activación POTA | `! POTA ES-0951 7.200 USB CQ` |
-| **APSPOT** | `! SOTA referencia frecuencia modo texto` | Spot de activación SOTA | `! SOTA EA4/TO-001 7.200 USB CQ` |
+| **APSPOT** | `! POTA referencia frecuencia modo texto` | Spot de activación POTA | `APSPOT: ! POTA ES-0951 7.200 USB CQ` |
+| **APSPOT** | `! SOTA referencia frecuencia modo texto` | Spot de activación SOTA | `APSPOT: ! SOTA EA4/TO-001 7.200 USB CQ` |
 ---
 
 ## 🔁 Pruebas de Red
 
 | Comando | Sintaxis | Función | Ejemplo |
 |--------|---------|--------|--------|
-| **ECHO** | `ECHO: texto` | Verificar si llegas a un digipeater | `ECHO: test 1` |\
+| **ECHO** | `ECHO: texto` | Verificar si llegas a un digipeater | `ECHO: test 1` |
 
 ---
 
@@ -72,6 +72,7 @@ Esta guía recopila comandos útiles que puedes enviar mediante APRS para accede
 
 | Comando | Sintaxis | Función | Ejemplo |
 |--------|---------|--------|--------|
-| **ANSRVR** | `CQ HOTG texto` | Canal #APRSThursday (u otros) | `CQ HOTG Hola! 73` |
+| **ANSRVR** | `ANSRVR: CQ HOTG texto` | Suscribirse al Canal #APRSThursday| `CQ HOTG Hola! 73` |
+| **ANSRVR** | `ANSRVR: U HOTG` | **Desuscribirse** del Canal #APRSThursday  | `ANSRVR: U HOTG` |
 
 ---
