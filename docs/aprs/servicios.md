@@ -1,10 +1,10 @@
 ---
-title: 📡  Comandos Servicios
+title: ⚙️  Comandos Servicios
 description: Comandos de Servicios en APRS.
 sidebar_position: 3
 ---
 
-# 📡 Comandos de Servicios en APRS
+# ⚙️ Comandos de Servicios en APRS
 
 Esta guía recopila comandos útiles que puedes enviar mediante APRS para acceder a distintos servicios: información, meteorología, búsqueda de estaciones, mensajería, etc.
 
