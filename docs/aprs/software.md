@@ -1,7 +1,7 @@
 ---
 title: 💻 Software
 description: Software para APRS.
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 💻 Software APRS: Programas principales por sistema operativo
