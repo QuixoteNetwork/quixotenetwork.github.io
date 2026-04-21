@@ -17,6 +17,7 @@ Esta guía recopila comandos útiles que puedes enviar mediante APRS para accede
 | Comando | Sintaxis | Función | Ejemplo |
 |---------|---------|--------|--------|
 | **WHO-15** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-15: EA1ABC` |
+| **WHO-IS** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-15: EA1ABC` |
 | **FIND** | `FIND: indicativo` | Última posición conocida de una estación | `FIND: EA1ABC` |
 
 ---
