@@ -17,7 +17,7 @@ Esta guía recopila comandos útiles que puedes enviar mediante APRS para accede
 | Comando | Sintaxis | Función | Ejemplo |
 |---------|---------|--------|--------|
 | **WHO-15** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-15: EA1ABC` |
-| **WHO-IS** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-15: EA1ABC` |
+| **WHO-IS** | `WHO-15: indicativo` | Información sobre un radioaficionado | `WHO-IS: EA1ABC` |
 | **FIND** | `FIND: indicativo` | Última posición conocida de una estación | `FIND: EA1ABC` |
 
 ---
@@ -26,8 +26,8 @@ Esta guía recopila comandos útiles que puedes enviar mediante APRS para accede
 
 | Comando | Sintaxis | Función | Ejemplo |
 |--------|---------|--------|--------|
-| **WXYO** | `WXYO: periodo [modo] GRID` | Información meteorológica | `WXYO: today full IM89cx` |
-|  | `today / tomorrow / 3 / 6 / 12` | Periodo en horas/días | |
+| **WXYO** | `WXYO: periodo [modo] GRID/Lugar` | Información meteorológica | `WXYO: today full IM89cx` |
+|  | `today / tomorrow / 3 / 6 / 12` | Periodo en días u horas | `WXYO: 12 IM89cx`|
 
 ---
 
