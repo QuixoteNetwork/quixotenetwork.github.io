@@ -62,9 +62,11 @@ Los siguientes nodos están extraídos de listados públicos de puertos de Packe
 🔗 http://vps1.g8bpq.net/
 
 ## Mapa de UK Packet Radio
-Para ver los nodos de VARA HF seleccionar en el menú: Modem Nodes -> VARA
+Para ver los nodos y BBS de VARA HF seleccionar en el menú: Modem Nodes -> VARA
+
 🔗 https://nodes.ukpacketradio.network/ports.html
 
+----
 
 Aunque no todos los nodos europeos figuran en esta página ni están etiquetados como “BBS VARA HF”, es un recurso útil para **buscar puertos activos, bandas y posibles servicios digitales accesibles por HF** y ayuda a ubicar estaciones de packet/BBS que puedan responder a conexiones digitales en HF cuando se usan modos como VARA. :contentReference[oaicite:1]{index=1}
 
