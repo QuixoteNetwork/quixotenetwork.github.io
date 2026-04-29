@@ -1,4 +1,6 @@
 ---
+title: 📘 Introducción
+description: Introducción a Meshtastic.
 sidebar_position: 1
 ---
 
