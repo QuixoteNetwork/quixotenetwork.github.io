@@ -1,8 +1,10 @@
 ---
+title: 💻 Servidores
+description: 💻 Servidores de Reticulum.
 sidebar_position: 2
 ---
 
-# 💻 Servidores Reticulum
+# 💻 Servidores de Reticulum
 
 A continuación se listan algunos **interfaces TCP públicos** utilizados habitualmente para interconexión y propagación dentro de la red Reticulum de Iberia:
 
