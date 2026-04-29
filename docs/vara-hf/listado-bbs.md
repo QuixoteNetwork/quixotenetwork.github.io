@@ -19,7 +19,7 @@ Este documento agrupa nodos conocidos o puertos VARA HF que pueden servir como p
 
 | Indicativo | Frecuencia |        Modo       | Banda |   Horario   |  Comentarios                           |
 |------------|------------|-------------------|-------|-------------|----------------------------------------|
-| EA4IKR-7   |  7.049.40  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Abril 2026             |
+| EA4IKR-7   |  7.049.40  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Mayo 2026             |
 
 
 
@@ -29,8 +29,8 @@ Este documento agrupa nodos conocidos o puertos VARA HF que pueden servir como p
 
 | Indicativo |   Frecuencia  |       Modo        | Banda |   Horario   |  Comentarios                           |
 |------------|---------------|-------------------|-------|-------------|----------------------------------------|
-|  IW2OHX-8  | 7.049.50 MHz  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Enero 2026             |
-| IW2OHX-8  | 14.115.00 MHz | VARA HF (2300 Hz) | 20 m  | 08 - 20 UTC |  Funcionando en Abril 2026             |
+| IW2OHX-8  | 7.049.50 MHz  | VARA HF (2300 Hz) | 40 m  | 00 - 23 UTC |  Funcionando en Mayo 2026             |
+| IW2OHX-8  | 14.115.00 MHz | VARA HF (2300 Hz) | 20 m  | 08 - 20 UTC |  Funcionando en Mayo 2026             |
 
 
 ---
@@ -39,7 +39,7 @@ Este documento agrupa nodos conocidos o puertos VARA HF que pueden servir como p
 
 | Indicativo |  Frecuencia  |       Modo       | Banda |   Horario    |  Comentarios                         |
 |------------|--------------|------------------|-------|--------------|--------------------------------------|
-| EI2GYB-7   | 7.049.45 MHz | VARA HF (500 Hz) | 40 m  | 00 - 23 UTC  |  Funcionando en Enero 2026           |
+| EI2GYB-7   | 7.049.45 MHz | VARA HF (500 Hz) | 40 m  | 00 - 23 UTC  |  Funcionando en Mayo 2026           |
 
 
 
@@ -56,8 +56,15 @@ Los siguientes nodos están extraídos de listados públicos de puertos de Packe
 
 
 
-👉 Listado actualizado a tiempo real:   
+# Listado actualizado a tiempo real:
+
+## Mapa de G8BPQ
+🔗 http://vps1.g8bpq.net/
+
+## Mapa de UK Packet Radio
+Para ver los nodos de VARA HF seleccionar en el menú: Modem Nodes -> VARA
 🔗 https://nodes.ukpacketradio.network/ports.html
+
 
 Aunque no todos los nodos europeos figuran en esta página ni están etiquetados como “BBS VARA HF”, es un recurso útil para **buscar puertos activos, bandas y posibles servicios digitales accesibles por HF** y ayuda a ubicar estaciones de packet/BBS que puedan responder a conexiones digitales en HF cuando se usan modos como VARA. :contentReference[oaicite:1]{index=1}
 
