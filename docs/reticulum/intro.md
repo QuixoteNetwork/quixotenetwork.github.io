@@ -1,4 +1,6 @@
 ---
+title: 📘 Introducción
+description: Introducción a Reticulum.
 sidebar_position: 1
 ---
 
