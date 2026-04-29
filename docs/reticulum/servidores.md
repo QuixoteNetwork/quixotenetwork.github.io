@@ -1,6 +1,6 @@
 ---
 title: 💻 Servidores
-description: 💻 Servidores de Reticulum.
+description: Servidores de Reticulum.
 sidebar_position: 2
 ---
 
