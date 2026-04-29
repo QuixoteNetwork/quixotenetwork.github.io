@@ -1,5 +1,5 @@
 ---
-title: 📘 Software
+title: 📱 Software
 description: Software para Meshtastic.
 sidebar_position: 2
 ---
