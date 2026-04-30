@@ -64,7 +64,7 @@ Los siguientes nodos están extraídos de listados públicos de puertos de Packe
 ## Mapa de UK Packet Radio
 Para ver los nodos y BBS de VARA HF seleccionar en el menú: Modem Nodes -> VARA
 
-🔗 https://nodes.ukpacketradio.network/ports.html
+🔗 https://nodes.ukpacketradio.network/packet-network-map.html
 
 ----
 
