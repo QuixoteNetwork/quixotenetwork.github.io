@@ -1,4 +1,8 @@
-
+---
+title: 📡 Frecuencias
+description: Frecuencias de la Banda Ciudadana.
+sidebar_position: 3
+---
 
 # 📡 Tabla completa de frecuencias CB 27 MHz (11m)
 
