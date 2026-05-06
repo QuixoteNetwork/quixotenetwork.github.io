@@ -1,0 +1,9 @@
+{
+  "label": "ALS162 Sync",
+  "position": 11,
+  "link": {
+    "slug": "als162-sync",
+    "type": "generated-index",
+    "description": "Documentación sobre ALS162 Sync de Quixote Network."
+  }
+}
