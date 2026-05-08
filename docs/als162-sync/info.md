@@ -25,6 +25,27 @@ Una vez decodificada correctamente la información, el sistema puede comparar es
 - Funciona completamente offline
 - Diseñado para radioaficionados, laboratorios y experimentación con señales de baja frecuencia
 
+## 📡 Configuración previa
+
+Antes de ejecutar el decodificador, es necesario sintonizar correctamente la señal ALS162.
+
+### 1️⃣ Configurar el receptor
+
+Ajusta tu SDR o receptor de radio con estos parámetros:
+
+- Modo: USB
+- Frecuencia de la señal: 162 kHz
+- Frecuencia central: 161.500 kHz (frecuencia que debemos poner en el receptor)
+- Ancho de banda recomendado: entre 500 y 1000 Hz (ajustar en el ancho de banda que mejor se diferencia la señal)
+
+### 2️⃣ Verificar la recepción
+
+Antes de iniciar el programa, asegúrate de que la señal se recibe correctamente.
+
+La prueba mínima consiste en escuchar el audio y poder reconocer claramente la modulación característica de ALS162.
+
+Si la señal no puede identificarse fácilmente al oído, el decodificador probablemente no logrará sincronizar correctamente.
+
 ## 📟 Interfaces disponibles
 
 ALS162 Sync dispone de dos versiones:
@@ -46,11 +67,11 @@ El objetivo de ALS162 Sync es ofrecer una forma sencilla y autónoma de sincroni
 
 Además de su utilidad práctica, el proyecto sirve como herramienta educativa para comprender el funcionamiento de las señales horarias de baja frecuencia y las técnicas de decodificación digital aplicadas a radio.
 
-## Instala y Descarga 
+## 📥 Instala y Descarga 
 
 Puedes descargar la herramienta tanto en su versión GUI como TUI desde el repositiorio de Github: https://github.com/QuixoteNetwork/als162-sync/
 
-## Más info:
+## 📚 Más información
 - Grupo de Telegrma de Quixote Network: https://t.me/quixotenetwork
 
 ---
