@@ -32,7 +32,7 @@ ALS162 Sync dispone de dos versiones:
 ### 🖥️ GUI (Graphical User Interface)
 Versión gráfica con interfaz visual sencilla e intuitiva para monitorizar el estado de la decodificación y facilitar la interacción con el programa.
 
-<img width="332" height="445" alt="gui" src="https://github.com/user-attachments/assets/592d50eb-9c20-4909-a3d6-9c04e3b8f15e" />
+<img width="333" height="445" alt="GUI" src="https://github.com/user-attachments/assets/51b6a06b-b769-4bc9-9b66-5e73495e6ef5" />
 
 ### 💻 TUI (Terminal User Interface)
 Versión ligera basada en terminal, ideal para sistemas de bajos recursos, acceso remoto mediante SSH o entornos sin interfaz gráfica.
