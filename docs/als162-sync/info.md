@@ -1,28 +1,33 @@
 ---
 title: 📘 Introducción
-description: Introducción a ALS162 Sync.
+description: Introducción a ALS162 GPS Sync.
 sidebar_position: 1
 ---
 
-# 📡 ALS162 Sync
+# 📡 ALS162 GPS Sync
 
-ALS162 Sync es una herramienta diseñada para decodificar la señal horaria de radio [ALS162](https://en.wikipedia.org/wiki/ALS162_time_signal) y utilizarla para sincronizar el reloj del ordenador sin necesidad de conexión a internet.
+**ALS162** Sync es una herramienta diseñada para decodificar la señal horaria de radio [ALS162](https://en.wikipedia.org/wiki/ALS162_time_signal) y utilizarla para sincronizar el reloj del ordenador sin necesidad de conexión a internet. También permite sincronizar la hora del PC mediante un GPS conectado por el puerto serie con la versión **ALS162 GPS Sync.**
 
-El programa recibe audio desde una tarjeta de sonido, un receptor SDR o una radio externa, analiza la señal recibida y detecta automáticamente tramas válidas de ALS162 para extraer la fecha y hora transmitidas por radio.
+El programa recibe audio desde una tarjeta de sonido, un receptor SDR o una radio externa, analiza la señal recibida y detecta automáticamente tramas válidas de ALS162 para extraer la fecha y hora transmitidas por radio. Para sincronizar mediante señal de GPS hay que conectar un dispositivo GPS a un puerto serie del ordenador.
 
-Una vez decodificada correctamente la información, el sistema puede comparar esa referencia temporal con el reloj local y sincronizar el equipo utilizando únicamente la señal de radio.
+Una vez decodificada correctamente la información, el sistema puede comparar esa referencia temporal con el reloj local y sincronizar el equipo utilizando únicamente la señal de radio o el GPS.
 
 ## ✨ Características
 
 - Multiplataforma: Windows, MacOS, Linux...
-- Decodificación de la señal horaria ALS162
-- Precisión aproximada de ±1 segundo
+- Decodificación de la señal horaria ALS162 y GPS
+- Información GPS en formatos: DD, DMS, DDM y UTC
+- Altitud, velocidad, dirección
+- Maidenhead Grid de 6 caracteres
+- Precisión aproximada de ±50 ms
 - Compatible con SDR, radios HF/LF y entradas de audio estándar
+- Compatible con cualquier GPS con conexión USB
 - Detección de tonos y análisis a nivel de bit
 - Búsqueda automática de tramas válidas
 - Extracción de fecha y hora desde la señal recibida
 - Sincronización del reloj del sistema de manera automática
 - Funciona completamente offline
+- Mapas y posicionamiento completamente offline y online.
 - Diseñado para radioaficionados, laboratorios y experimentación con señales de baja frecuencia
 
 ## 📡 Configuración previa
@@ -50,12 +55,12 @@ Si la señal no puede identificarse fácilmente al oído, el decodificador proba
 
 ALS162 Sync dispone de dos versiones:
 
-### 🖥️ GUI (Graphical User Interface)
-Versión gráfica con interfaz visual sencilla e intuitiva para monitorizar el estado de la decodificación y facilitar la interacción con el programa.
+### 🖥️ GUI (Graphical User Interface): ALS162 Sync y ALS162 GPS Sync
+Versión gráfica con interfaz visual sencilla e intuitiva para monitorizar el estado de la decodificación y facilitar la interacción con el programa. Sincronizar la hora y ver toda la información GPS y el Mapa.
 
 <img width="333" height="445" alt="GUI" src="https://github.com/user-attachments/assets/51b6a06b-b769-4bc9-9b66-5e73495e6ef5" />
 
-### 💻 TUI (Terminal User Interface)
+### 💻 TUI (Terminal User Interface): ALS162 Sync
 Versión ligera basada en terminal, ideal para sistemas de bajos recursos, acceso remoto mediante SSH o entornos sin interfaz gráfica.
 
 <img width="422" height="452" alt="tui" src="https://github.com/user-attachments/assets/1f496bc7-81f9-4dee-af15-56d59a149b1e" />
@@ -63,7 +68,7 @@ Versión ligera basada en terminal, ideal para sistemas de bajos recursos, acces
 ---
 ## 🎯 Objetivo del proyecto
 
-El objetivo de ALS162 Sync es ofrecer una forma sencilla y autónoma de sincronizar un ordenador utilizando una referencia horaria transmitida por radio, especialmente útil en escenarios offline, experimentación técnica y entornos donde no se dispone de acceso a servicios de tiempo por internet.
+El objetivo de ALS162 GPS Sync es ofrecer una forma sencilla y autónoma de sincronizar un ordenador utilizando una referencia horaria transmitida por radio, especialmente útil en escenarios offline, experimentación técnica y entornos donde no se dispone de acceso a servicios de tiempo por internet.
 
 Además de su utilidad práctica, el proyecto sirve como herramienta educativa para comprender el funcionamiento de las señales horarias de baja frecuencia y las técnicas de decodificación digital aplicadas a radio.
 
