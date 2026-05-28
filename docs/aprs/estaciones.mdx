@@ -237,57 +237,88 @@ En APRS existen diferentes tipos de estaciones, cada una con una función espec�
 
 </TabItem>
 
+
 <TabItem value="aprsis" label="🛜 APRS-IS">
 
 # 🛜 APRS-IS Core Servers
 
-**Infraestructura APRS Internet**
+**Infraestructura global de internet para APRS**
 
 ## Símbolo recomendado
 
 `No suelen usar símbolo APRS RF`
 
 Porque normalmente:
+- no transmiten directamente por radio
+- funcionan únicamente sobre internet
+- forman parte del backbone APRS mundial
 
-- no transmiten RF
-- funcionan solo en APRS-IS
+## ¿Qué es APRS-IS?
 
-</TabItem>
+APRS-IS (**Automatic Packet Reporting System Internet Service**) es una red mundial de servidores conectados entre sí que distribuyen tráfico APRS a través de internet.
 
-<TabItem value="fillin" label="📻 Fill-In">
+Gracias a APRS-IS:
+- los paquetes APRS pueden verse globalmente
+- aplicaciones como APRSdroid o aprs.fi muestran estaciones en tiempo real
+- los IGates pueden enviar y recibir tráfico desde internet
+- los mensajes APRS pueden viajar a grandes distancias
 
-# 📻 Fill-In Digipeater
+## Funciones principales
 
-**Digipeater local de apoyo**
+- Distribuir tráfico APRS mundial
+- Interconectar IGates
+- Sincronizar mensajes APRS
+- Compartir posiciones GPS
+- Compartir telemetría y WX
+- Permitir acceso global desde aplicaciones APRS
 
-## Símbolo APRS recomendado
+## ¿Cómo funciona?
 
-`#` → Digipeater
+```text
+Radio APRS
+    ↓
+IGate
+    ↓
+APRS-IS
+    ↓
+Servidores APRS globales
+    ↓
+Otros IGates / Clientes APRS
+````
 
-## Alias típico
+## Servidores APRS-IS conocidos
 
-`WIDE1-1`
+* `rotate.aprs2.net`
+* `euro.aprs2.net`
+* `noam.aprs2.net`
+* `cwop.aprs.net`
 
-</TabItem>
+## Clientes típicos conectados a APRS-IS
 
-<TabItem value="tracker" label="🧭 Tracker">
+* APRSdroid
+* YAAC
+* PinPoint APRS
+* Xastir
+* Direwolf
+* aprs.fi
+* QtTermTCP
 
-# 🧭 Tracker APRS
+## Importante
 
-**Baliza APRS GPS**
+APRS-IS NO sustituye la radio.
 
-## Símbolos recomendados
+La filosofía APRS sigue siendo:
 
-- `h` → Hiker
-- `O` → Balloon
-- `>` → Car
-- `b` → Bike
+```tip
+RF first
+```
 
-## Equipos típicos
+Internet simplemente ayuda a:
 
-- `TinyTrack`
-- `Trackuino`
-- `LoRa APRS`
+* ampliar cobertura
+* visualizar tráfico
+* conectar regiones lejanas
+* facilitar monitorización global
 
 </TabItem>
 
