@@ -1,10 +1,10 @@
 ---
 slug: inicio-blog
-title: Configuración con direwolf de iGate / Digipeater APRS
+title: Configuración de iGate / Digipeater APRS
 authors: [quixote]
 tags: [quixote_network, aprs, direwolf, igate, digipeater]
 ---
-# Configuración con direwolf de iGate / Digipeater APRS
+# Configuración con Direwolf de iGate / Digipeater APRS
 
 Aquí os pegamos un archivo de configuración listo para usar tanto en Linux (Ubuntu, Debian, Raspbian...) como en Windows. Sólo tendréis que cambiar:
 - Puerto de comunicación de vuestro dispositivo
