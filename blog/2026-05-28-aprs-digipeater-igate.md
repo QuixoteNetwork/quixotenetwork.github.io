@@ -17,7 +17,7 @@ Este es el archivo direwolf.conf que tendréis que usar en vuestro dispositivo R
 
 ```ini
 # Si se pone ADEVICE = ADEVICE0
-# Linux: er la salida de los comandos 'aplay -l' y 'arecord -l' para ver el dispositivo y subdispositivo. En vez de poner el numero (que pu>
+# Linux: er la salida de los comandos 'aplay -l' y 'arecord -l' para ver el dispositivo y subdispositivo.
 ADEVICE0 plughw:Device,0
 
 # ACHANNELS es 1 para canal unico o mono. Es 2 para canal estereo.
