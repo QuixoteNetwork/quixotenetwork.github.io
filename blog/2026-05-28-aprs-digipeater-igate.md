@@ -11,6 +11,8 @@ Aquí os pegamos un archivo de configuración listo para usar tanto en Linux (Ub
 - Indicativo de vuestro Digipeater / iGate
 - Passcode de vuestro Indicativo
 
+Para obtener el Passcode de vuestro Indicativo podéis usar esta web: https://www.iz3mez.it/aprs-passcode/ o directamente descargar el código desde este repositorio: https://github.com/DO3SWW/web-aprs-passcode y correrlo en local.
+
 Este es el archivo direwolf.conf que tendréis que usar en vuestro dispositivo Raspberry Pi, Mini-Pc o cualquier otro dispositivo:
 
 ```ini
