@@ -1,5 +1,5 @@
 ---
-slug: inicio-blog
+slug: igate-digipeater-aprs
 title: Configuración de iGate / Digipeater APRS
 authors: [quixote]
 tags: [quixote_network, aprs, direwolf, igate, digipeater]
