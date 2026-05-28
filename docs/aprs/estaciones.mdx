@@ -4,7 +4,6 @@ description: Tipos de Estaciones APRS.
 sidebar_position: 5
 ---
 
-```mdx
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -14,21 +13,17 @@ En APRS existen diferentes tipos de estaciones, cada una con una función espec�
 
 ---
 
-<Tabs>
+<Tabs groupId="aprs-stations">
 
 <TabItem value="igate" label="🌐 IGate">
 
 # 🌐 IGate (Internet Gateway)
 
-<pre>
-Radio ↔ APRS-IS (Internet)
-</pre>
+**Radio ↔ APRS-IS (Internet)**
 
 ## Símbolo APRS recomendado
 
-<pre>
-I&   (Diamond / Gateway)
-</pre>
+`I&` → Diamond / Gateway
 
 ## Funciones
 
@@ -39,9 +34,7 @@ I&   (Diamond / Gateway)
 
 ## Ejemplo
 
-<pre>
-EA1QXT-10
-</pre>
+`EA4IKR-10`
 
 </TabItem>
 
@@ -49,15 +42,11 @@ EA1QXT-10
 
 # 📻 Digipeater
 
-<pre>
-Radio ↔ Radio
-</pre>
+**Radio ↔ Radio**
 
 ## Símbolo APRS recomendado
 
-<pre>
-#    (Digipeater)
-</pre>
+`#` → Digipeater
 
 ## Funciones
 
@@ -67,17 +56,13 @@ Radio ↔ Radio
 
 ## Alias comunes
 
-<pre>
-WIDE1-1
-WIDE2-1
-WIDE2-2
-</pre>
+- `WIDE1-1`
+- `WIDE2-1`
+- `WIDE2-2`
 
 ## Ejemplo
 
-<pre>
-EA1QXT-1
-</pre>
+`EA4XYZ-1`
 
 </TabItem>
 
@@ -85,15 +70,11 @@ EA1QXT-1
 
 # 🌦️ WX Station (Weather Station)
 
-<pre>
-Meteorología APRS
-</pre>
+**Meteorología APRS**
 
 ## Símbolo APRS recomendado
 
-<pre>
-_    (Weather Station)
-</pre>
+`_` → Weather Station
 
 ## Datos típicos
 
@@ -105,9 +86,7 @@ _    (Weather Station)
 
 ## Ejemplo
 
-<pre>
-EA4WX-13
-</pre>
+`EA4WX-13`
 
 </TabItem>
 
@@ -115,23 +94,14 @@ EA4WX-13
 
 # 🚗 Mobile Station
 
-<pre>
-Estación móvil APRS
-</pre>
+**Estación móvil APRS**
 
-## Símbolo APRS recomendado
+## Símbolos APRS recomendados
 
-<pre>
->    (Car)
-</pre>
-
-Otros muy usados:
-
-<pre>
-[    (Jeep / 4x4)
-<    (Motorcycle)
-b    (Bike)
-</pre>
+- `>` → Car
+- `[` → Jeep / 4x4
+- `<` → Motorcycle
+- `b` → Bike
 
 ## Funciones
 
@@ -141,9 +111,7 @@ b    (Bike)
 
 ## Ejemplo
 
-<pre>
-EA1QXT-9
-</pre>
+`EA4IKR-9`
 
 </TabItem>
 
@@ -151,15 +119,11 @@ EA1QXT-9
 
 # 🏠 Fixed Station
 
-<pre>
-Estación fija APRS
-</pre>
+**Estación fija APRS**
 
 ## Símbolo APRS recomendado
 
-<pre>
--    (House / Home Station)
-</pre>
+`-` → House / Home Station
 
 ## Funciones
 
@@ -169,9 +133,7 @@ Estación fija APRS
 
 ## Ejemplo
 
-<pre>
-EA1QXT
-</pre>
+`EA4IKR`
 
 </TabItem>
 
@@ -179,15 +141,11 @@ EA1QXT
 
 # 🛰️ Satellite Gateway
 
-<pre>
-APRS vía satélite
-</pre>
+**APRS vía satélite**
 
 ## Símbolo APRS recomendado
 
-<pre>
-S    (Satellite)
-</pre>
+`S` → Satellite
 
 ## Funciones
 
@@ -197,11 +155,9 @@ S    (Satellite)
 
 ## Satélites típicos
 
-<pre>
-ISS
-NO-84
-PSAT
-</pre>
+- `ISS`
+- `NO-84`
+- `PSAT`
 
 </TabItem>
 
@@ -209,15 +165,11 @@ PSAT
 
 # 📦 Telemetry Station
 
-<pre>
-Telemetría APRS
-</pre>
+**Telemetría APRS**
 
 ## Símbolo APRS recomendado
 
-<pre>
-T    (Telemetry)
-</pre>
+`T` → Telemetry
 
 ## Datos típicos
 
@@ -232,17 +184,13 @@ T    (Telemetry)
 
 # 🚑 Object / Event Station
 
-<pre>
-Objetos y eventos APRS
-</pre>
+**Objetos y eventos APRS**
 
 ## Símbolos recomendados
 
-<pre>
-!    (Emergency)
-E    (Event)
-r    (Repeater)
-</pre>
+- `!` → Emergency
+- `E` → Event
+- `r` → Repeater
 
 ## Ejemplos
 
@@ -257,15 +205,11 @@ r    (Repeater)
 
 # 📡 APRS Messaging Station
 
-<pre>
-Mensajería APRS
-</pre>
+**Mensajería APRS**
 
 ## Símbolo APRS recomendado
 
-<pre>
-M    (Message Center)
-</pre>
+`M` → Message Center
 
 ## Funciones
 
@@ -279,23 +223,17 @@ M    (Message Center)
 
 # 🤖 APRS Service Stations
 
-<pre>
-Servicios automáticos APRS
-</pre>
+**Servicios automáticos APRS**
 
 ## Símbolo APRS recomendado
 
-<pre>
-?    (Info / Service)
-</pre>
+`?` → Info / Service
 
 ## Ejemplos
 
-<pre>
-ANSRVR
-EMAIL
-SMSGTE
-</pre>
+- `ANSRVR`
+- `EMAIL`
+- `SMSGTE`
 
 </TabItem>
 
@@ -303,15 +241,11 @@ SMSGTE
 
 # 🛜 APRS-IS Core Servers
 
-<pre>
-Infraestructura APRS Internet
-</pre>
+**Infraestructura APRS Internet**
 
 ## Símbolo recomendado
 
-<pre>
-No suelen usar símbolo APRS RF
-</pre>
+`No suelen usar símbolo APRS RF`
 
 Porque normalmente:
 
@@ -324,21 +258,15 @@ Porque normalmente:
 
 # 📻 Fill-In Digipeater
 
-<pre>
-Digipeater local de apoyo
-</pre>
+**Digipeater local de apoyo**
 
 ## Símbolo APRS recomendado
 
-<pre>
-#    (Digipeater)
-</pre>
+`#` → Digipeater
 
 ## Alias típico
 
-<pre>
-WIDE1-1
-</pre>
+`WIDE1-1`
 
 </TabItem>
 
@@ -346,43 +274,20 @@ WIDE1-1
 
 # 🧭 Tracker APRS
 
-<pre>
-Baliza APRS GPS
-</pre>
+**Baliza APRS GPS**
 
 ## Símbolos recomendados
 
-### Senderismo
-
-<pre>
-h    (Hiker)
-</pre>
-
-### Globos
-
-<pre>
-O    (Balloon)
-</pre>
-
-### Coche
-
-<pre>
->
-</pre>
-
-### Bicicleta
-
-<pre>
-b
-</pre>
+- `h` → Hiker
+- `O` → Balloon
+- `>` → Car
+- `b` → Bike
 
 ## Equipos típicos
 
-<pre>
-TinyTrack
-Trackuino
-LoRa APRS
-</pre>
+- `TinyTrack`
+- `Trackuino`
+- `LoRa APRS`
 
 </TabItem>
 
@@ -407,4 +312,3 @@ LoRa APRS
 | Fill-In Digi | # | Cobertura local |
 | Tracker | h / O / b | Tracking GPS |
 
-```
