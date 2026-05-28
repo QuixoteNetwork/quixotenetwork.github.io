@@ -13,7 +13,7 @@ Aquí os pegamos un archivo de configuración listo para usar tanto en Linux (Ub
 
 Este es el archivo direwolf.conf que tendréis que usar en vuestro dispositivo Raspberry Pi, Mini-Pc o cualquier otro dispositivo:
 
-```ini
+```conf
 # Si se pone ADEVICE = ADEVICE0
 # Linux: er la salida de los comandos 'aplay -l' y 'arecord -l' para ver el dispositivo y subdispositivo. En vez de poner el numero (que pu>
 ADEVICE0 plughw:Device,0
