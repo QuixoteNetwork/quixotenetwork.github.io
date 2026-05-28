@@ -1,0 +1,399 @@
+---
+title: 💻 Estaciones
+description: Tipos de Estaciones APRS.
+sidebar_position: 5
+---
+
+```mdx
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# 📡 Tipos de Estaciones APRS
+
+En APRS existen diferentes tipos de estaciones, cada una con una función específica dentro de la red. Algunas ayudan a retransmitir paquetes, otras proporcionan acceso a internet, meteorología o servicios especiales.
+
+---
+
+<Tabs>
+
+<TabItem value="igate" label="🌐 IGate">
+
+# 🌐 IGate (Internet Gateway)
+
+```text
+Radio ↔ APRS-IS (Internet)
+```
+
+## Símbolo APRS recomendado
+
+```text
+I&   (Diamond / Gateway)
+```
+
+## Funciones
+- Envía paquetes RF a internet
+- Recibe paquetes desde internet
+- Permite comunicación global
+- Muy útil para cobertura extendida
+
+## Ejemplo
+
+```text
+EA4IKR-10
+```
+
+</TabItem>
+
+<TabItem value="digipeater" label="📻 Digipeater">
+
+# 📻 Digipeater
+
+```text
+Radio ↔ Radio
+```
+
+## Símbolo APRS recomendado
+
+```text
+#    (Digipeater)
+```
+
+## Funciones
+- Repetir paquetes APRS
+- Extender alcance de estaciones móviles
+- Crear cobertura regional
+
+## Alias comunes
+
+```text
+WIDE1-1
+WIDE2-1
+WIDE2-2
+```
+
+## Ejemplo
+
+```text
+EA4XYZ-1
+```
+
+</TabItem>
+
+<TabItem value="wx" label="🌦️ WX">
+
+# 🌦️ WX Station (Weather Station)
+
+```text
+Meteorología APRS
+```
+
+## Símbolo APRS recomendado
+
+```text
+_    (Weather Station)
+```
+
+## Datos típicos
+- Temperatura
+- Humedad
+- Presión
+- Velocidad del viento
+- Lluvia
+
+## Ejemplo
+
+```text
+EA4WX-13
+```
+
+</TabItem>
+
+<TabItem value="mobile" label="🚗 Móvil">
+
+# 🚗 Mobile Station
+
+```text
+Estación móvil APRS
+```
+
+## Símbolo APRS recomendado
+
+```text
+>    (Car)
+```
+
+Otros muy usados:
+
+```text
+[    (Jeep / 4x4)
+<    (Motorcycle)
+b    (Bike)
+```
+
+## Funciones
+- Tracking en tiempo real
+- Telemetría móvil
+- Rutas y desplazamientos
+
+## Ejemplo
+
+```text
+EA4IKR-9
+```
+
+</TabItem>
+
+<TabItem value="fixed" label="🏠 Fija">
+
+# 🏠 Fixed Station
+
+```text
+Estación fija APRS
+```
+
+## Símbolo APRS recomendado
+
+```text
+-    (House / Home Station)
+```
+
+## Funciones
+- Monitorización APRS
+- Beacon fijo
+- Mensajería
+
+## Ejemplo
+
+```text
+EA4IKR
+```
+
+</TabItem>
+
+<TabItem value="satellite" label="🛰️ Satélite">
+
+# 🛰️ Satellite Gateway
+
+```text
+APRS vía satélite
+```
+
+## Símbolo APRS recomendado
+
+```text
+S    (Satellite)
+```
+
+## Funciones
+- APRS global
+- Tracking satelital
+- Mensajería vía satélite
+
+## Satélites típicos
+
+```text
+ISS
+NO-84
+PSAT
+```
+
+</TabItem>
+
+<TabItem value="telemetry" label="📦 Telemetría">
+
+# 📦 Telemetry Station
+
+```text
+Telemetría APRS
+```
+
+## Símbolo APRS recomendado
+
+```text
+T    (Telemetry)
+```
+
+## Datos típicos
+- Voltajes
+- Sensores
+- Energía solar
+- Estado remoto
+
+</TabItem>
+
+<TabItem value="object" label="🚑 Objetos">
+
+# 🚑 Object / Event Station
+
+```text
+Objetos y eventos APRS
+```
+
+## Símbolos recomendados
+
+```text
+!    (Emergency)
+E    (Event)
+r    (Repeater)
+```
+
+## Ejemplos
+- Eventos
+- Emergencias
+- Carreras
+- Refugios
+
+</TabItem>
+
+<TabItem value="messaging" label="💬 Mensajería">
+
+# 📡 APRS Messaging Station
+
+```text
+Mensajería APRS
+```
+
+## Símbolo APRS recomendado
+
+```text
+M    (Message Center)
+```
+
+## Funciones
+- Chat APRS
+- Email Gateway
+- SMS Gateway
+
+</TabItem>
+
+<TabItem value="services" label="🤖 Servicios">
+
+# 🤖 APRS Service Stations
+
+```text
+Servicios automáticos APRS
+```
+
+## Símbolo APRS recomendado
+
+```text
+?    (Info / Service)
+```
+
+## Ejemplos
+
+```text
+ANSRVR
+EMAIL
+SMSGTE
+```
+
+</TabItem>
+
+<TabItem value="aprsis" label="🛜 APRS-IS">
+
+# 🛜 APRS-IS Core Servers
+
+```text
+Infraestructura APRS Internet
+```
+
+## Símbolo recomendado
+
+```text
+No suelen usar símbolo APRS RF
+```
+
+Porque normalmente:
+- no transmiten RF
+- funcionan solo en APRS-IS
+
+</TabItem>
+
+<TabItem value="fillin" label="📻 Fill-In">
+
+# 📻 Fill-In Digipeater
+
+```text
+Digipeater local de apoyo
+```
+
+## Símbolo APRS recomendado
+
+```text
+#    (Digipeater)
+```
+
+## Alias típico
+
+```text
+WIDE1-1
+```
+
+</TabItem>
+
+<TabItem value="tracker" label="🧭 Tracker">
+
+# 🧭 Tracker APRS
+
+```text
+Baliza APRS GPS
+```
+
+## Símbolos recomendados
+
+### Senderismo
+
+```text
+h    (Hiker)
+```
+
+### Globos
+
+```text
+O    (Balloon)
+```
+
+### Coche
+
+```text
+>
+```
+
+### Bicicleta
+
+```text
+b
+```
+
+## Equipos típicos
+
+```text
+TinyTrack
+Trackuino
+LoRa APRS
+```
+
+</TabItem>
+
+</Tabs>
+
+---
+
+# 📡 Resumen rápido
+
+| Tipo | Símbolo | Función |
+|---|---|---|
+| IGate | I& | Radio ↔ Internet |
+| Digipeater | # | Repetidor APRS |
+| WX | _ | Meteorología |
+| Mobile | > | Vehículo móvil |
+| Fixed | - | Estación fija |
+| Satellite | S | APRS satelital |
+| Telemetry | T | Sensores |
+| Object/Event | ! / E | Eventos y objetos |
+| Messaging | M | Mensajería |
+| Service | ? | Servicios automáticos |
+| Fill-In Digi | # | Cobertura local |
+| Tracker | h / O / b | Tracking GPS |
+```
