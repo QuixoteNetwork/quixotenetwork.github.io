@@ -24,7 +24,7 @@ sidebar_position: 2
 | 19:01           | Organizador envía | `@QXTNET SNR?` |
 | 19:04           | Organizador envía | `@QXTNET QXTMSG2 ENVIAD REGISTRO` |
 | 19:05 – 19:13   | Cada Estación envía | `@QXTNET REGISTRO [TU GRID]` |
-| 19:14           | Organizador envía | `@QXTNET QXTMSG3 EA1ABC EA2DEF EA3GHI` (Estaciones recibidas y Órden Tx) |
+| 19:14           | Organizador envía | `@QXTNET QXTMSG3 EA1ABC EA2DEF EA3GHI` (Estaciones Rxs y Órden Tx) |
 | 19:15           | Organizador envía | `@QXTNET QXTMSG4 ENVIAD SITREP` |
 | 19:16 – 19:29   | Cada Estación envía|  `@QXTNET E:0 I:0 A:0 M:0 AE:2` (Ejemplo SITREP) |
 | 19:30           | Organizador envía | `@QXTNET QXTMSG5 FIN NET CONTROL` |
