@@ -15,7 +15,7 @@ SITREP: significa Situation Report, en castellano Informe de Situación, que es 
 
 **Ejemplo de transmisión:**
 
-Emisión: ``` E:0 I:0 A:0 M:03 AE:2 ```
+Emisión: ``` E:0 I:1 A:0 M:3 AE:2 ```
 Significado: Red Eléctrica Operativa, Internet Normal, Suministro Agua Normal, Meteorología Tomenta y Autonomía Energética de 2 horas sin electricidad.
 
 ---
