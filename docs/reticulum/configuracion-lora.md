@@ -9,7 +9,7 @@ Estos ajustes son los recomendados para la comunidad, aunque conviene comprobar 
 
 :::info
 - Frecuencia: 869.618 MHz
-- Band Width: 62 kHz
+- Band Width: 62.5 kHz
 - Spreading Factor: 5
 - Coding Rate: 4:5
 :::
