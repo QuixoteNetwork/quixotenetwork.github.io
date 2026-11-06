@@ -36,6 +36,11 @@ HORARIO VERANO: 21:00 Horas Península - UTC +2 (Del 28 de Marzo al 25 de Octubr
 | 19:30           | Organizador envía | `@QXTNET QXTMSG5 FIN NET CONTROL` |
 
 
+### 📡 ¿Cómo se elije un Organizador de un Net Control?
+Cada semana, entre **30 y 15 minutos antes del inicio del NetControl**, las estaciones interesadas en actuar como organizadoras realizarán intercambios de informes de señal (SNR?) a través del grupo @QXTNET, con el objetivo de determinar cuáles disponen de mayor cobertura y capacidad de recepción. En función de los resultados, se seleccionará como organizadora la estación que pueda alcanzar al mayor número de participantes y cubrir la mayor área posible. Si existen estaciones que quedan fuera de su cobertura, podrá designarse **una segunda estación organizadora** para atenderlas, de modo que todas puedan participar en el SITREP.
+
+Una vez finalizado el NetControl, las estaciones organizadoras intercambiarán la relación de indicativos de las estaciones que hayan participado en sus respectivas sesiones, así como cualquier información o novedad relevante comunicada durante los SITREP. Finalmente, esta información se compartirá en el grupo @QXTNET, para que **todas las estaciones tengan conocimiento de los participantes, las novedades y la situación general de la red**.
+
 ### 📡 Ejemplo Formato SITREP
 Ejemplo de SITREP (Informe de Situación) enviado por una Estación:
 ```
@@ -44,11 +49,6 @@ E:0 I:0 A:0 M:0 AE:2
 Significado: Electriciad Normal, Internet Normal, Agua Normal, Meteorología Normal y Autonomía Energética de 2 horas.
 
 Más información sobre los SITREP: [Explicación detallada SITREP](https://quixote.info/docs/netcontrol/sitrep)
-
-### 📡 ¿Cómo se elije un Organizador de un SITREP?
-Cada semana, entre **30 y 15 minutos antes del inicio del NetControl**, las estaciones interesadas en actuar como organizadoras realizarán intercambios de informes de señal (SNR?) a través del grupo @QXTNET, con el objetivo de determinar cuáles disponen de mayor cobertura y capacidad de recepción. En función de los resultados, se seleccionará como organizadora la estación que pueda alcanzar al mayor número de participantes y cubrir la mayor área posible. Si existen estaciones que quedan fuera de su cobertura, podrá designarse **una segunda estación organizadora** para atenderlas, de modo que todas puedan participar en el SITREP.
-
-Una vez finalizado el NetControl, las estaciones organizadoras intercambiarán la relación de indicativos de las estaciones que hayan participado en sus respectivas sesiones, así como cualquier información o novedad relevante comunicada durante los SITREP. Finalmente, esta información se compartirá en el grupo @QXTNET, para que **todas las estaciones tengan conocimiento de los participantes, las novedades y la situación general de la red**.
 
 ### 📡 ¿Qué es un SITREP en Quixote Network?
 
