@@ -6,13 +6,13 @@ sidebar_position: 2
 
 # 🎛️ Net Control Semanal de Quixote Network
 
-*Todos los Miércoles a las 19:00 UTC.*
+*Todos los Miércoles a las 19:00 UTC utilizando el programa JS8Call.*
 
 :::info
-📡 JS8Call: (grupo @QXTNET) 
+📡 **JS8Call: (grupo @QXTNET)** 
 
 **HORARIO INVIERNO:** 20:00 Horas Península - UTC +1 (Del 25 de Octubre al 28 de Marzo)
-- 40m: 3.578 MHz USB
+- 80m: 3.578 MHz USB
 - 11m: 27.265 MHz
 
 **HORARIO VERANO:** 21:00 Horas Península - UTC +2 (Del 28 de Marzo al 25 de Octubre)
