@@ -6,14 +6,18 @@ sidebar_position: 2
 
 # 🎛️ Net Control Semanal de Quixote Network
 
-*Todos los Miércoles a las 20:00 horas invierno / 21:00 horas verano, horario peninsular (19:00 UTC).*
+*Todos los Miércoles a las 19:00 UTC.*
 
 :::info
 📡 JS8Call: (grupo @QXTNET) 
-- 40m: 7.078 MHz
+HORARIO INVIERNO: 20:00 Horas Península - UTC +1 (Del 25 de Octubre al 28 de Marzo)
+- 40m: 3.578 MHz USB
 - 11m: 27.265 MHz
 
-📶 Meshtastic: canal Iberia
+HORARIO VERANO: 21:00 Horas Península - UTC +2 (Del 28 de Marzo al 25 de Octubre)
+- 40m: 7.078 MHz
+- 11m: 27.265 MHz
+- 
 :::
 
 ### 🕒 Secuencia Horaria del Net Control
@@ -40,6 +44,11 @@ E:0 I:0 A:0 M:0 AE:2
 Significado: Electriciad Normal, Internet Normal, Agua Normal, Meteorología Normal y Autonomía Energética de 2 horas.
 
 Más información sobre los SITREP: [Explicación detallada SITREP](https://quixote.info/docs/netcontrol/sitrep)
+
+### 📡 ¿Cómo se elije un Organizador de un SITREP?
+Cada semana, entre **30 y 15 minutos antes del inicio del NetControl**, las estaciones interesadas en actuar como organizadoras realizarán intercambios de informes de señal (SNR?) a través del grupo @QXTNET, con el objetivo de determinar cuáles disponen de mayor cobertura y capacidad de recepción. En función de los resultados, se seleccionará como organizadora la estación que pueda alcanzar al mayor número de participantes y cubrir la mayor área posible. Si existen estaciones que quedan fuera de su cobertura, podrá designarse **una segunda estación organizadora** para atenderlas, de modo que todas puedan participar en el SITREP.
+
+Una vez finalizado el NetControl, las estaciones organizadoras intercambiarán la relación de indicativos de las estaciones que hayan participado en sus respectivas sesiones, así como cualquier información o novedad relevante comunicada durante los SITREP. Finalmente, esta información se compartirá en el grupo @QXTNET, para que **todas las estaciones tengan conocimiento de los participantes, las novedades y la situación general de la red**.
 
 ### 📡 ¿Qué es un SITREP en Quixote Network?
 
