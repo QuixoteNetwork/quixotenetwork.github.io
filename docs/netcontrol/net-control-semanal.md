@@ -11,11 +11,11 @@ sidebar_position: 2
 :::info
 📡 JS8Call: (grupo @QXTNET) 
 
-HORARIO INVIERNO: 20:00 Horas Península - UTC +1 (Del 25 de Octubre al 28 de Marzo)
+**HORARIO INVIERNO:** 20:00 Horas Península - UTC +1 (Del 25 de Octubre al 28 de Marzo)
 - 40m: 3.578 MHz USB
 - 11m: 27.265 MHz
 
-HORARIO VERANO: 21:00 Horas Península - UTC +2 (Del 28 de Marzo al 25 de Octubre)
+**HORARIO VERANO:** 21:00 Horas Península - UTC +2 (Del 28 de Marzo al 25 de Octubre)
 - 40m: 7.078 MHz
 - 11m: 27.265 MHz
 - 
